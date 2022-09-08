@@ -1,0 +1,134 @@
+{
+    "items": [
+        {
+            "sys": {
+                "id": "1"
+            },
+            "fields": {
+                "title": "Queen panel bed",
+                "price": 10.99,
+                "img": {
+                    "fields": {
+                        "file": {
+                            "url": "./img/blueC.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "2"
+            },
+            "fields": {
+                "title": "King panel set",
+                "price": 12.99,
+                "img": {
+                    "fields": {
+                        "file": {
+                            "url": "./img/mnb.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "3"
+            },
+            "fields": {
+                "title": "single panel set",
+                "price": 12.99,
+                "img": {
+                    "fields": {
+                        "file": {
+                            "url": "./img/product2.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "4"
+            },
+            "fields": {
+                "title": "Twin panel set",
+                "price": 22.99,
+                "img": {
+                    "fields": {
+                        "file": {
+                            "url": "./img/product12.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "5"
+            },
+            "fields": {
+                "title": "couch",
+                "price": 88.99,
+                "img": {
+                    "fields": {
+                        "file": {
+                            "url": "./img/product4.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "6"
+            },
+            "fields": {
+                "title": "classic panel bed",
+                "price": 32.99,
+                "img": {
+                    "fields": {
+                        "file": {
+                            "url": "./img/backg.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "7"
+            },
+            "fields": {
+                "title": "Dresser",
+                "price": 45.99,
+                "img": {
+                    "fields": {
+                        "file": {
+                            "url": "./img/overwater.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "8"
+            },
+            "fields": {
+                "title": "Prince classic set",
+                "price": 33.99,
+                "img": {
+                    "fields": {
+                        "file": {
+                            "url": "./img/room.jpg"
+                        }
+                    }
+                }
+            }
+        }
+        
+           
+    ]
+}

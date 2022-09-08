@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.Cart</title>
+    <!-- <link rel="icon" href="./img/jess-bailey-q10VITrVYUM-unsplash.jpg"> -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="fonts/material-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #list{
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar">
+        <nav class="navbar-center">
+            <span class="nav-icon sidenav-trigger" data-target="slide-out">
+                <i class="material-icons" id="list">list</i>
+            </span>
+            <h4 class="">Comfy<em class="orange-text">House</em></h4>
+            <div class="cart-btn">
+                <span class="nav-icon ">
+                    <!-- sidenav-trigger" data-target="slid-out" -->
+                    <i class="material-icons">shopping_cart</i>
+                </span>
+                <div class="cart-items orange white-text">0</div>
+            </div>
+        </nav>
+    </nav>
+    <!--end of nav bar -->
+
+    <ul class="sidenav" id="slide-out">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+
+    <!-- <ul class="sidenav uche" id="slid-out">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+</ul> -->
+
+
+    <!-- heading session -->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">furniture collection</h1>
+            <button class="banner-btn">Shop now</button>
+        </div>
+    </header>
+    <!-- heading end -->
+
+
+
+    <!-- product -->
+    <section class="products">
+        <div class="section-title">
+            <h2>Our Products</h2>
+        </div>
+        <div class="products-center">
+            <!-- single product -->
+               
+
+            <!--end of single product -->
+        </div>
+    </section>
+    <!--end of single product-->
+
+    <!---cart-->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="material-icons black white-text">close</i>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content">
+                <!-- cart items -->
+                <!-- <div class="cart-item">
+                        <img src="img/product1.jpg" height="50px" alt="">
+                        <div>
+                            <h4>queen bed</h4>
+                            <h5>$9:00</h5>
+                            <span class="remove-item">remove</span>
+                        </div>
+                        <div>
+                            <i class="material-icons down">arrow_drop_up</i>
+                            <p class="item-amount">1</p>
+                            <i class="material-icons up">arrow_drop_down</i>
+                        </div>
+                </div> -->
+                <!--end of cart items -->
+            </div>
+
+            <div class="cart-footer ">
+                <h3>your total : $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+                <button class="checkOut banner-btn">Check out</button>
+            </div>
+        </div>
+    </div>
+     
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
